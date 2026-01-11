@@ -10,6 +10,7 @@ function _update()
 if (not game_over) then
 	 update_cave()
 	 move_player()
+     -- This is for the optional thing. For a normal game just comment the below line (Line 14)
 	 speed_up()
 	 check_hit()
 	else
