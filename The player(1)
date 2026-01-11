@@ -50,6 +50,7 @@ function check_hit()
 	end
 end
 
+--This is optional. I just used the things that I learned.
 function speed_up()
 		if(btn(2)) then
 			player.speed += 0.5
